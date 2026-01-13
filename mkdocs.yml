@@ -1,0 +1,20 @@
+site_name: Moje projekty
+site_author: Maciej Sobczak
+site_url: https://maciejatcosphere.github.io/ds_ai_portfolio
+site_description: >-
+  Portfolio moich wspaniałych projektów z Data Science i AI!
+
+repo_name: maciwid/ds_ai_portfolio
+repo_url: https://github.com/maciwid/ds_ai_portfolio
+
+theme:
+  name: material
+  palette:
+    primary: yellow
+
+nav:
+  - Strona Domowa: index.md
+  - Obecny projekt:
+      - "Titanic": titanic/index.md
+  - Poprzednie projekty:
+      - "Iris": iris/index.md
