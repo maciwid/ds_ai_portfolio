@@ -6,15 +6,17 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Portfolio moich wspaniałych projektów z Data Science i AI!">
+        <meta name="description" content="Portfolio for Data Science and AI projects by Maciej Widłak.">
       
       
-        <meta name="author" content="Maciej Sobczak">
+        <meta name="author" content="Maciej Widłak">
       
       
-        <link rel="canonical" href="https://maciejatcosphere.github.io/ds_ai_portfolio/">
+        <link rel="canonical" href="https://maciwid.github.io/ds_ai_portfolio/">
       
       
+      
+        <link rel="next" href="subtitle_generator/">
       
       
       <link rel="icon" href="assets/images/favicon.png">
@@ -22,7 +24,7 @@
     
     
       
-        <title>Moje projekty</title>
+        <title>My Projects in Data Science and AI</title>
       
     
     
@@ -60,10 +62,12 @@
   
     
     
+      
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="yellow" data-md-color-accent="indigo">
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -72,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-mkdocs" class="md-skip">
+        <a href="#maciej-widak-data-scientist" class="md-skip">
           Skip to content
         </a>
       
@@ -88,7 +92,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Moje projekty" class="md-header__button md-logo" aria-label="Moje projekty" data-md-component="logo">
+    <a href="." title="My Projects in Data Science and AI" class="md-header__button md-logo" aria-label="My Projects in Data Science and AI" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -102,13 +106,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Moje projekty
+            My Projects in Data Science and AI
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Strona Domowa
+              Homepage
             
           </span>
         </div>
@@ -116,7 +120,33 @@
     </div>
     
       
+        <form class="md-header__option" data-md-component="palette">
+  
     
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -198,13 +228,13 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Moje projekty" class="md-nav__button md-logo" aria-label="Moje projekty" data-md-component="logo">
+    <a href="." title="My Projects in Data Science and AI" class="md-nav__button md-logo" aria-label="My Projects in Data Science and AI" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    Moje projekty
+    My Projects in Data Science and AI
   </label>
   
     <div class="md-nav__source">
@@ -242,7 +272,7 @@
   
   
   <span class="md-ellipsis">
-    Strona Domowa
+    Homepage
     
   </span>
   
@@ -255,7 +285,7 @@
   
   
   <span class="md-ellipsis">
-    Strona Domowa
+    Homepage
     
   </span>
   
@@ -278,20 +308,44 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
+  <a href="#about-me" class="md-nav__link">
     <span class="md-ellipsis">
-      Commands
+      About me
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
+  <a href="#this-portfolio" class="md-nav__link">
     <span class="md-ellipsis">
-      Project layout
+      This portfolio
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selected-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Selected Projects
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Selected Projects">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#subtitle-generator" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎞️ Subtitle Generator
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -326,7 +380,7 @@
   
   
   <span class="md-ellipsis">
-    Obecny projekt
+    Projects
     
   </span>
   
@@ -337,7 +391,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            Obecny projekt
+            Projects
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -348,80 +402,12 @@
   
   
     <li class="md-nav__item">
-      <a href="titanic/index.md" class="md-nav__link">
+      <a href="subtitle_generator/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Titanic
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    Poprzednie projekty
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            Poprzednie projekty
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="iris/index.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Iris
+    Generator napisów
     
   </span>
   
@@ -466,20 +452,44 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
+  <a href="#about-me" class="md-nav__link">
     <span class="md-ellipsis">
-      Commands
+      About me
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
+  <a href="#this-portfolio" class="md-nav__link">
     <span class="md-ellipsis">
-      Project layout
+      This portfolio
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selected-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Selected Projects
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Selected Projects">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#subtitle-generator" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎞️ Subtitle Generator
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -502,21 +512,16 @@
   
 
 
-<h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
-</ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
+<h1 id="maciej-widak-data-scientist">Maciej Widłak — Data Scientist</h1>
+<h2 id="about-me">About me</h2>
+<p>I’m a data scientist with a background in cognitive science and computer science. I use data to move beyond surface-level patterns toward interpretable insights that help make sense of complex systems. I’m also interested in creatively applying existing models to build practical applications that support everyday tasks, research, and idea consolidation.</p>
+<h2 id="this-portfolio">This portfolio</h2>
+<p>This portfolio contains selected data-science projects demonstrating my approach to exploratory analysis, modeling, and communication.</p>
+<h2 id="selected-projects">Selected Projects</h2>
+<h3 id="subtitle-generator">🎞️ Subtitle Generator</h3>
+<p>A Streamlit-based application for automatic subtitle generation and audio transcription with timestamps, powered by the Whisper speech-to-text model.
+<strong>Skills:</strong> Python, Streamlit, OpenAI API
+<a href="subtitle_generator/">View project →</a></p>
 
 
 
