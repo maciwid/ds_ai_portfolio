@@ -1,8 +1,8 @@
-site_name: Moje projekty
-site_author: Maciej Sobczak
-site_url: https://maciejatcosphere.github.io/ds_ai_portfolio
+site_name: My Projects in Data Science and AI
+site_author: Maciej Widłak
+site_url: https://maciwid.github.io/ds_ai_portfolio/
 site_description: >-
-  Portfolio moich wspaniałych projektów z Data Science i AI!
+  Portfolio for Data Science and AI projects by Maciej Widłak.
 
 repo_name: maciwid/ds_ai_portfolio
 repo_url: https://github.com/maciwid/ds_ai_portfolio
@@ -10,11 +10,21 @@ repo_url: https://github.com/maciwid/ds_ai_portfolio
 theme:
   name: material
   palette:
-    primary: yellow
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
 nav:
-  - Strona Domowa: index.md
-  - Obecny projekt:
-      - "Titanic": titanic/index.md
-  - Poprzednie projekty:
-      - "Iris": iris/index.md
+  - Homepage: index.md
+  - Projects:
+      - "Generator napisów": subtitle_generator/index.md

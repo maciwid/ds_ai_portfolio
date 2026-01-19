@@ -1,17 +1,17 @@
-# Welcome to MkDocs
+# Maciej Widłak — Data Scientist
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## About me
 
-## Commands
+I’m a data scientist with a background in cognitive science and computer science. I use data to move beyond surface-level patterns toward interpretable insights that help make sense of complex systems. I’m also interested in creatively applying existing models to build practical applications that support everyday tasks, research, and idea consolidation.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## This portfolio
 
-## Project layout
+This portfolio contains selected data-science projects demonstrating my approach to exploratory analysis, modeling, and communication.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Selected Projects
+
+### 🎞️ Subtitle Generator
+
+A Streamlit-based application for automatic subtitle generation and audio transcription with timestamps, powered by the Whisper speech-to-text model.
+**Skills:** Python, Streamlit, OpenAI API
+[View project →](subtitle_generator/index.md)
