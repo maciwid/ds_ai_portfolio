@@ -26,5 +26,8 @@ theme:
 
 nav:
   - Homepage: index.md
-  - Projects:
-      - "Generator napisów": subtitle_generator/index.md
+  - Current Project:
+      - "Video/Audio Summarizer": video_audio_summarizer/index.md
+  - Previous Projects:
+      - "Subtitle Generator": subtitle_generator/index.md
+      - "Half Marathon App": halfmarathon_app/index.md

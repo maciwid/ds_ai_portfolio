@@ -1,16 +1,16 @@
-# Subtitle Generator / Audio transcriptor
+# Halfmarathon Time Predictor
 
-A Streamlit-based application implementing OpenAI speech-to-text model Whisper-1 for subtitle creation. It allows user to upload video/audio file and outputs transcription that can be further edited. User can save edited script as a .srt file or .txt file with or without timestamps.
+An application implementing model trained on real data from halfmarathon in Wrocław. It parses user input to predict potential time on a long distance.
+Application was created according to the instruction from a course hence the non-intuitive input method (text box).
+The goal was to learn how to use cloud data service with online hosting (Digital Ocean) and LLM monitoring (Langfuse).
 
-<a href="https://github.com/maciwid/subtitle_generator" class="md-button md-button--primary">GitHub Repo</a>
 
-<a href="https://subtitlegenerator-fe7l7n8vkrj5s5cxgvqvmh.streamlit.app/" class="md-button md-button--primary">Streamlit Community Cloud</a>
+<a href="https://github.com/maciwid/halfmarathon_app" class="md-button md-button--primary">GitHub Repo</a>
 
 ### Screenshots:
 ![Screenshot 1](images/1.png)
 ![Screenshot 2](images/2.png)
 ![Screenshot 3](images/3.png)
-![Screenshot 4](images/4.png)
 
 <!-- <iframe
     id="content"

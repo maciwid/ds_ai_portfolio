@@ -1,4 +1,4 @@
-# Maciej Widłak — Data Scientist
+# Maciej Widłak 
 
 ## About me
 
@@ -13,5 +13,23 @@ This portfolio contains selected data-science projects demonstrating my approach
 ### 🎞️ Subtitle Generator
 
 A Streamlit-based application for automatic subtitle generation and audio transcription with timestamps, powered by the Whisper speech-to-text model.
+
 **Skills:** Python, Streamlit, OpenAI API
+
 [View project →](subtitle_generator/index.md)
+
+### 🏃 Halfmarathon Time Predictor
+
+A Streamlit-based application implementing model trained on data from halfmarathon in Wrocław. It parses user input to predict aproximate time. 
+
+**Skills:** Python, Streamlit, OpenAI API, Langfuse monitoring
+
+[View project →](halfmarathon_app/index.md)
+
+### 📖 Video/Audio Summarizer
+
+A Streamlit-based application for summary generation. User can input a Youtube url, or upload own file.
+
+**Skills:** Python, Streamlit, OpenAI API
+
+[View project →](video_audio_summarizer/index.md)

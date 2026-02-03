@@ -1,16 +1,16 @@
-# Subtitle Generator / Audio transcriptor
+# Video/Audio Summarizer
 
-A Streamlit-based application implementing OpenAI speech-to-text model Whisper-1 for subtitle creation. It allows user to upload video/audio file and outputs transcription that can be further edited. User can save edited script as a .srt file or .txt file with or without timestamps.
-
-<a href="https://github.com/maciwid/subtitle_generator" class="md-button md-button--primary">GitHub Repo</a>
-
-<a href="https://subtitlegenerator-fe7l7n8vkrj5s5cxgvqvmh.streamlit.app/" class="md-button md-button--primary">Streamlit Community Cloud</a>
+A Streamlit-based application that creates concise summary of a video or audio. User can input a Youtube link or upload their own audio/video. 
+Next, implementing LLM functionality a summary with timestamps is generated. User can directly jump to sections of an audio/video extracted by model using generated buttons.
+ 
+<a href="https://github.com/maciwid/video_audio_summary" class="md-button md-button--primary">GitHub Repo</a>
 
 ### Screenshots:
 ![Screenshot 1](images/1.png)
 ![Screenshot 2](images/2.png)
 ![Screenshot 3](images/3.png)
 ![Screenshot 4](images/4.png)
+
 
 <!-- <iframe
     id="content"
