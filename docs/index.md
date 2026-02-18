@@ -6,7 +6,7 @@ I’m a data scientist with a background in cognitive science and computer scien
 
 ## This portfolio
 
-This portfolio contains selected data-science projects demonstrating my approach to exploratory analysis, modeling, and communication.
+This portfolio contains selected projects demonstrating my approach to project development, modeling, and communication.
 
 ## Selected Projects
 
